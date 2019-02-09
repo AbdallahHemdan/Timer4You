@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(122, 114, 113);
+    background-image: linear-gradient(to bottom ,rgb(10, 198, 255),rgb(80, 204, 80));
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin: 10px 0px 0px 20px;
+    font-family: monospace;
+    text-align: left;
+    font-weight: 200px;
+    white-space: pre;
+    text-shadow: 0px 1px 0px #999,
+        0px 0.5px 0px #888, 0px 4px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 1px 0px #333,
+        0px 5px 7px #001135;
+}
+
+h1:hover {
+    color: yellow;
+    font-size: 61px;
+}
+
+.StopWatch {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+#Start {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    width: 170px;
+    color: yellow;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#Stop {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: monospace;
+    border: solid 2px rgb(255, 255, 255);
+    width: 170px;
+    font-weight: bold;
+    color: yellow;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#Reset {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-weight: bold;
+    width: 170px;
+    border: solid 2px rgb(255, 255, 255);
+    color: yellow;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#Start:hover {
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+
+#Stop:hover {
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+
+#Reset:hover {
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
